@@ -2,8 +2,8 @@
 
 @section('content')
     <div class="mb-6">
-        <h1 class="text-2xl font-bold text-stone-900">{{ $district->name }}</h1>
-        <p class="text-sm text-stone-600 mt-1">
+        <h1 class="text-2xl font-black text-[#23120B]">{{ $district->name }}</h1>
+        <p class="text-sm font-semibold text-[#5C341E] mt-1">
             {{ $district->reviews_count }} {{ Str::plural('review', $district->reviews_count) }} in {{ $district->name }}
         </p>
     </div>
